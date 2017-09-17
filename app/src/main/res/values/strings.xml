@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">SQLiteTest</string>
+    <!--Strings Related to the SchoolData Activity-->
+    <string name="s_id">School Id</string>
+    <string name="s_name">School Name</string>
+    <string name="s_district">District</string>
+    <string name="s_amount">Number of Student</string>
+    <string name="s_save_button">Save Data</string>
+
+
+    <!--Strings related to the StudentData activity-->
+    <string name="c_school_name">School Name</string>
+    <string name="c_first_name">First Name</string>
+    <string name="c_last_name">Last Name</string>
+    <string name="c_email">Email</string>
+    <string name="c_mobile">Mobile Number</string>
+    <string name="c_save_button">Save Data</string>
+    <string name="c_student_id">Student Id</string>
+
 </resources>

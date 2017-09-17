@@ -1,4 +1,4 @@
-package com.example.chanakafernando.sqlitetest;
+package com.example.chanakafernando.sqlitetest.models;
 
 import java.util.Map;
 
@@ -8,14 +8,19 @@ import java.util.Map;
 
 public class Student {
     private Map data;
+    private String index;
     private String fname;
     private String lName;
     private String mobile;
     private String eMail;
-    private String sId;
+    private String schoolName;
 
     public void Student(Map body){
         this.data = body;
+    }
+
+    public void setStudentId(String studentId){
+        this.index = studentId;
     }
 
     public void setFname(String fname){
@@ -34,8 +39,12 @@ public class Student {
         this.mobile = mobile;
     }
 
-    public void setsId(String sId){
-        this.sId = sId;
+    public void setSchoolName(String schoolName){
+        this.schoolName = schoolName;
+    }
+
+    public String getStudentId(){
+        return this.index;
     }
 
     public String getFname(){
@@ -54,8 +63,8 @@ public class Student {
         return eMail;
     }
 
-    public String getsId(){
-        return sId;
+    public String getsSchoolName(){
+        return schoolName;
     }
 
 }
